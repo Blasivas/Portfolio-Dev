@@ -1,14 +1,14 @@
-.intro{
+#intro{
   background-image:url(../assets/images/Background_Intro.png);
   background-size: cover;
   display: flex;
   text-align: center;
   justify-content: center;
 }
-.info{
+#info{
   margin-top: 120px;
 }
-section{
+#avatar{
   position: relative;
   width: 112px;
   height: 112px;
@@ -37,12 +37,40 @@ section{
   
 }
 
-.sub{
+.subtitle{
   font: var(--subtitle);
   color: var(--gray-500);
   span{
     color: var(--red);
   }
+}
+
+#tags{
+  display: flex;
+  gap: 16px;
+  margin-top: 80px;
+  margin-bottom: 94px;
+  div{
+    background-color: var(--gray-300);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 8px 16px;
+  }
+  img{
+    height: 24px;
+    width: 24px;
+  }
+  span{
+    padding-left: 8px;
+    font: var(--text-md);
+    color: var(--gray-500)
+  }
+}
+#caret{
+  color: var(--gray-400);
+  margin-bottom: 57px;
 }
 
 h1{
