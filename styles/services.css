@@ -1,0 +1,29 @@
+#services{
+  background-color: var(--gray-200);
+  display: grid;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 144px;
+  h2{
+    margin-bottom: 56px;
+  }
+  figure{
+    background-color: var(--gray-200);
+    border: 1px solid;
+    border-color: var(--gray-300);
+  }
+  img{
+    width: 48px;
+    height: 48px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  p{
+    color: var(--gray-500);
+  }
+}
+#grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
