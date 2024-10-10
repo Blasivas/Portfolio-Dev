@@ -35,3 +35,26 @@ a{
   text-decoration: none;
   color: inherit;
 }
+
+h1{
+  font: var(--title-lg);
+  color: var(--gray-600);
+}
+h2{
+  font: var(--text-md);
+  color: var(--gray-600);
+}
+h3{
+  font: var(--subtitle);
+  color: var(--red);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  h3:nth-child(3){
+    color: var(--purple);
+  }
+}
+p{
+  font: var(--text-sm);
+  color: var(--gray-400);
+}

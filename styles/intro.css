@@ -36,7 +36,6 @@
   }
   
 }
-
 .subtitle{
   font: var(--subtitle);
   color: var(--gray-500);
@@ -44,7 +43,6 @@
     color: var(--red);
   }
 }
-
 #tags{
   display: flex;
   gap: 16px;
@@ -71,14 +69,4 @@
 #caret{
   color: var(--gray-400);
   margin-bottom: 57px;
-}
-
-h1{
-  font: var(--title-lg);
-  color: var(--gray-600);
-}
-
-p{
-  font: var(--text-sm);
-  color: var(--gray-400);
 }
