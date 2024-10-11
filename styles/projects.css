@@ -7,6 +7,9 @@
   h2{
     margin-bottom: 56px;
   }
+  h3{
+    margin-top: 72px;
+  }
 }
 #grid{
   display: grid;
@@ -32,4 +35,7 @@ figure{
       margin-top: 8px;
     }
   }
+}
+figure:hover{
+  border:solid 1.5px var(--gray-400)
 }

@@ -1,0 +1,79 @@
+#contact{
+  display: grid;
+  justify-content: center;
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-size: cover;
+  padding: 128px 0 200px 0;
+  h3{
+    color: var(--purple);
+  }
+  p{
+    font: var(--text-md);
+    color: var(--gray-500);
+    margin-bottom: 48px;
+  }
+}
+#links{
+  display: grid;
+  justify-content: center;
+  font: var(--text-sm);
+  color: var(--gray-500);
+  gap: 16px;
+  a{
+    border-radius: 8px;
+    background-color: var(--gray-300);
+    width: 400px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    strong{
+      margin-left: 12px;
+      width: 288px;
+    }
+    span{
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    span:nth-child(1){
+      width: 28px;
+      height: 28px;
+    }
+    span:nth-child(3){
+      background-image: url(../assets/icons/ArrowUpRight.svg);
+      width: 20px;
+      height: 20px;
+    }
+    #Linkedin{
+      background-image: url(../assets/icons/LinkedinLogo.svg);
+    }
+    #Instagram{
+      background-image: url(../assets/icons/InstagramLogo.svg);
+    }
+    #Github{
+      background-image: url(../assets/icons/GithubLogo.svg);
+    }
+    #E-mail{
+      background-image: url(../assets/icons/EnvelopeSimple.svg);
+    }
+  }
+  a:hover{
+    border: solid 1.5px var(--blue);
+    &:hover span{
+      fill: var(--blue);
+      background-image: url(../assets/icons/ArrowUpRight_hover.svg);
+    }
+    &:hover #Linkedin{
+      background-image: url(../assets/icons/LinkedinLogo_hover.svg);
+    }
+    &:hover #Instagram{
+      background-image: url(../assets/icons/InstagramLogo_hover.svg);
+    }
+    &:hover #Github{
+      background-image: url(../assets/icons/GithubLogo_hover.svg);
+    }
+    &:hover #E-mail{
+      background-image: url(../assets/icons/EnvelopeSimple_hover.svg);
+    }
+  }
+}
